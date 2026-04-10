@@ -5,6 +5,10 @@ body {
     margin: 0;
     padding: 20px;
     }
+h1 {
+    color: #333333;
+    line-height: 2em;
+    }
 h2 {
     color: #333333;
     }
@@ -27,6 +31,7 @@ h2 {
     }
     .nav-menu-links {
         text-decoration: none;
+        font-family: courier;
         font-weight: bold;
         padding: 5px 10px;
     }
