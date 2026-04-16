@@ -1,0 +1,100 @@
+main h1 {
+    font-family: "Gill Sans", Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+}
+body {
+    background-color: #244b5a; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2c3e50;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Header  */
+header {
+    background-color: #34677a;
+    padding: 2rem;
+    text-align: center;
+    border-bottom: 3px solid #284e5d;
+}
+
+header h1 {
+    color: #84b3c4; 
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Navigation  */
+nav {
+    background-color: #244b5a;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #4db6ac;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 5px 15px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffffff; 
+}
+
+/* Main Content  */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+}
+
+.section-title {
+    font-size: 1.5em;
+    border-bottom: 3px dashed #ffdce5;
+    margin-top: 20px;
+    color: #8e7d7d;
+    display: inline-block;
+}
+
+.portfolio-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-top: 15px;
+}
+
+/* Footer  */
+footer {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 40px;
+    background-color: #f9f9f9;
+    font-size: 0.9em;
+    color: #777777;
+    border-top: 1px solid #eeeeee;
+}
+
+footer a {
+    color: #e0b1b1;
+    text-decoration: underline;
+}
+
+/* Utility  */
+.important {
+    font-weight: bold;
+    color: #d48181;
+}
+.lab {
+
+    }
+.pwp {
+
+    }
+.reports {
+
+    }
