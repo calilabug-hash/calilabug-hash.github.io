@@ -51,12 +51,12 @@ nav a:hover {
 main {
     max-width: 800px;
     margin: 20px auto;
-    padding: 20px;
+    padding: 40px;
     background: #ffffff;
     background-image: url(../github-portfolio/images/snorlax_blank.png);
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .section-title {
