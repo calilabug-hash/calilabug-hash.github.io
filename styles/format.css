@@ -56,8 +56,7 @@ main {
     background-image: url(../github-portfolio/_images/snorlax_blank.png);
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 400px;
+    background-size: contain;
 }
 
 .section-title {
