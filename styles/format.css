@@ -54,7 +54,7 @@ main {
     padding: 20px;
     background: #ffffff;
     background-image: url(../github-portfolio/_images/snorlax_blank.png);
-    background-position: right;
+    background-position: right top;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 400px;
