@@ -1,0 +1,77 @@
+/* 1. Use Flexbox to create a flexible layout for the entire page */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* 2. Style the header with a background color and padding */
+/* 3. Add padding to the main content area for better readability */
+main {
+    flex: 1;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+/* 4. Style the navigation links with a different color and font */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+/* 6. Add spacing to individual nav links */
+nav li {
+    margin: 0 15px;
+}
+
+/* 7. Responsive IdeasUse CSS Grid for a two-column layout in the main section */
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+}
+
+/* 8. Ensure images within the layout are responsive */
+main img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* 9. Center the content inside the footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: auto;
+}
+
+/* 10. Responsive Rule: Stack the nav vertically on small screens */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
